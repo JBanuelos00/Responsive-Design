@@ -8,81 +8,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>My Portfolio</title>
+
+    <style>
+        .myHeading {
+            background: #4aaaa5;
+            width: fit-content;
+            height: 100%;
+            padding: 40px;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Header with name and nav bar -->
-    <header>
-        <div class="bg-info clearfix">
-            <h1 class="myHeading">Javier Banuelos</h1>
+    <div class="container">
+        <div class="row">
+            <span class="col-xs-3"> </span>
+            <h1 class="col-xs-3 myHeading">Javier Banuelos</h1>
 
-            <div>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="nav col justify-content-end" style="padding-top:80px; bottom:0">
+                <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Porfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
         </div>
-    </header>
+        <hr style="border-top: 2px solid gray;">
+    </div>
 
     <!-- Divs with links to future projects -->
-    <div class="portfolioBoxes">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </div>
-    <div class="portfolioBoxes">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </div>
-    <div class="portfolioBoxes">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+    <div class="card-deck">
+        <div class="card bg-primary"></div>
+        <div class="card bg-primary"></div>
+        <div class="card bg-primary"></div>
+        <div class="card bg-primary"></div>
+        <div class="card bg-primary"></div>
     </div>
 
     <!-- Insert Sticky Footer Here. -->
