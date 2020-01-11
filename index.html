@@ -8,31 +8,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>About Me</title>
+
+    <style>
+        .myHeading {
+            background: #4aaaa5;
+            width: fit-content;
+            height: 100%;
+            padding: 40px;
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Header with name and nav bar -->
-    <header>
-        <div class="bg-info clearfix">
-            <h1 class="myHeading">Javier Banuelos</h1>
+    <div class="container">
+        <div class="row">
+            <span class="col-xs-3"> </span>
+            <h1 class="col-xs-3 myHeading">Javier Banuelos</h1>
 
-            <div>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="nav col justify-content-end" style="padding-top:80px;">
+                <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Porfolio</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+            </ul>
         </div>
-
-    </header>
-
+    </div>
     <!-- Div with picture and about me. -->
     <div class="media">
         <img src="..." class="align-self-start mr-3" alt="...">
