@@ -12,29 +12,82 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column">
     <div class="container">
-        <div class="row">
-            <span class="col-xs-3"> </span>
-            <h1 class="col-xs-3 bg-primary text-white myHeading">Javier Banuelos</h1>
+        <div class="d-flex row bg-secondary">
+            <h1 class="mr-auto col-3 bg-info align-content-end text-center text-white" style="margin-bottom: 0;">Javier
+                Banuelos</h1>
 
-            <ul class="nav col justify-content-end" style="padding-top:80px;">
-                <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Porfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-xs bg-secondary col justify-content-end align-content-end"
+                style="padding: 0 8px;">
+                <ul class="navbar nav" style="padding:0 16px;">
+                    <li class="nav-item border bg-info">
+                        <a class="nav-link text-white" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item border bg-info">
+                        <a class="nav-link text-white active" href="#">Porfolio</a>
+                    </li>
+                    <li class="nav-item border bg-info">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <hr style="border-top: 2px solid gray;">
-    </div>
+        <!-- Divs with links to future projects -->
 
-    <!-- Divs with links to future projects -->
-    <div class="container">
-        <div class="col card-deck" style="margin:0; padding:0;">
-            <div class="card bg-primary"></div>
-            <div class="card bg-primary"></div>
-            <div class="card bg-primary"></div>
-            <div class="card bg-primary"></div>
-            <div class="card bg-primary"></div>
+        <div class="border p-3 bg-light" style="margin: 0 -15px;">
+            <div class="row">
+                <h5 class="mt-0">My Portfolio</h5>
+            </div>
+            <div class="row">
+                <div class="col card-deck">
+                    <div class="card bg-light">
+                        <img src="images/dpad.png">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto bg-info text-center">
+                                <a href="https://www.finalfantasyxiv.com/" class="stretched-link text-white" target="_blank">Project 1</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light">
+                        <img src="images/dpad.png">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto bg-info text-center">
+                                <a href="https://www.pantheonmmo.com/" class="stretched-link text-white" target="_blank">Project 2</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light">
+                        <img src="images/dpad.png">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto bg-info text-center">
+                                <a href="https://www.everquest.com/home" class="stretched-link text-white" target="_blank">Project 3</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light">
+                        <img src="images/dpad.png">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto bg-info text-center">
+                                <a href="https://na.leagueoflegends.com/en/" class="stretched-link text-white" target="_blank">Project 4</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card bg-light">
+                        <img src="images/dpad.png">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="mt-auto bg-info text-center">
+                                <a href="https://www.dndbeyond.com/" class="stretched-link text-white" target="_blank">Project 5</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 

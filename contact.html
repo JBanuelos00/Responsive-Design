@@ -13,47 +13,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column">
 
     <div class="container">
-        <div class="row">
-            <span class="col-xs-3"> </span>
-            <h1 class="col-xs-3 bg-primary text-white myHeading">Javier Banuelos</h1>
+        <div class="d-flex row bg-secondary">
+            <h1 class="mr-auto col-3 bg-info align-content-end text-center text-white" style="margin-bottom: 0;">Javier Banuelos</h1>
 
-            <ul class="nav col justify-content-end" style="padding-top:80px;">
-                <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="portfolio.html">Porfolio</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-xs bg-secondary col justify-content-end align-content-end" style="padding: 0 8px;">
+                <ul class="navbar nav" style="padding:0 16px;">
+                    <li class="nav-item border bg-info">
+                        <a class="nav-link text-white" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item border bg-info">
+                        <a class="nav-link text-white" href="portfolio.html">Porfolio</a>
+                    </li>
+                    <li class="nav-item border bg-info">
+                        <a class="nav-link text-white active" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <hr style="border-top: 2px solid gray;">
-    </div>
-            
-     
-    <div class="container">
-        <div class="row">
-            <form class="col" style="margin:0; padding:0;">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name Here">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-            </form>
+
+        <div class="border p-3 bg-light" style="margin: 0 -15px;">
+            <div class="row">
+                <form class="col">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="text" class="form-control" placeholder="Your Name Here">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
-        <footer>
+    <footer>
 
-            Copyright
+        Copyright
 
-        </footer>
+    </footer>
 
 
     <!-- Optional JavaScript -->
